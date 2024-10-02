@@ -1,4 +1,13 @@
-# React + Vite
+# Prompt Advisor Remastered (React + Vite)
+
+# Instructions of Running in local machine
+1) Clone or download zip of the repository in your local machine
+2) Open the  folder (having src,public,index.html files etc) in vs code 
+3) then in CLI Run these 2 commands 
+    --> npm install
+    --> npm run dev
+4) after that, link to the webpage will appear in the CLI.
+5) ( ctrl + click ) on the link to open it.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
