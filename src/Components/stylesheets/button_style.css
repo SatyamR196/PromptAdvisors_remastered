@@ -1,0 +1,35 @@
+.Button_a{
+    text-decoration: none;
+}
+.Button_a button{
+    height:50px;
+    /* width: 100px; */
+    padding: 5px 10px;
+    border-radius: 1000px;
+    /* background-color: rgb(44, 44, 44); */
+    background-color: whitesmoke;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &:hover{
+        color: white;
+    }
+}
+.Button_a button::after {
+    content: "";
+    height:108%;
+    width: 105%;
+    position:absolute;
+    background-image: linear-gradient(to bottom right,rgb(3, 124, 211),rgb(223, 19, 53));
+    border-radius: 1000px;
+    z-index:-1;
+}
+.Button_a button:hover{
+    z-index: 0;
+    box-shadow: 6px 3px 20px rgba(223, 19, 53, 0.756),
+     -6px -3px 20px rgb(3, 110, 186);
+     cursor: pointer;
+}

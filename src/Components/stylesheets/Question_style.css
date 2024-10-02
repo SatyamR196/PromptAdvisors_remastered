@@ -1,0 +1,12 @@
+.container{
+    padding-inline: 0 !important;
+}
+.Q_main{
+    /* background-color: brown; */
+    color: white !important;
+    /* width: 400px; */
+    border-bottom:1px solid whitesmoke;
+}
+.Q_main details{
+    min-width: 300px;
+}

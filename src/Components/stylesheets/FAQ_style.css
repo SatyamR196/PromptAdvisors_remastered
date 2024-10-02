@@ -1,0 +1,74 @@
+.FAQ_container{
+    background-color: rgb(29, 35, 57);
+    min-height: 80vh;
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    /* border-top: 2px solid salmon;
+    border-bottom: 2px solid salmon; */
+}
+.FAQ_title{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap:2rem;
+}
+.line{
+    width: 160px;
+    height: 2px;
+    background-color: white;
+}
+.FAQ_title_text{
+    font-weight: bold;
+    color: white;
+}
+.FAQ_left{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.FAQ_left_title{
+    color: white;
+    font-weight: bold;
+    font-size: clamp(1rem, 2.5vw + 1rem, 4.5rem);
+}
+.FAQ_main{
+    display: flex;
+    justify-content: space-between ;
+    gap: 3rem;
+}
+@media (max-width: 768px) {
+    .FAQ_main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between ;
+        gap: 3rem;
+    }
+}
+.FAQ_right{
+    height: 450px;
+    overflow-y: scroll;
+    /* overflow: scroll; */
+}
+.FAQ_right::-webkit-scrollbar{
+    width: 0.3rem;
+    height: 1rem;
+}
+.FAQ_right::-webkit-scrollbar-thumb{
+    height: 1rem;
+    background-color:hsl(210, 15%, 92%);
+    border: 0.2rem solid #1D2339 ;
+    border-radius: 0.5rem;
+    padding-inline: 5px;
+  }
+.FAQ_right::-webkit-scrollbar-thumb:hover{
+    background-color:hsl(210, 87%, 74%);
+  }
+.FAQ_right::-webkit-scrollbar-thumb:active{
+    background-color:hsl(210, 87%, 79%);
+  }
+.FAQ_right::-webkit-scrollbar-track{
+    background-color: #1D2339;
+    padding-inline: 5px;
+  }

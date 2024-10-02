@@ -1,29 +1,11 @@
-import React from "react";
-import "../Components/stylesheets/contact_style.css"
-import Button from "../micro_components/Button";
-function Contact() {
+import React from 'react'
+import "../Components/stylesheets/button_style.css"
+function Button({text="Click Me",width=150}) {
   return (
-    <>
-      <section className="section_blocker">
-        <div className="container">
-          <div className="blocker-content">
-            <h2 className="text-size-56">
-              Ready to implement AI into your business?
-            </h2>
-            <Button text="Let's Talk" width={150}/>
-          </div>
-        </div>
-        <div className="blocker_image"></div>
-      </section>
-    </>
-  );
-}
-
-export default Contact;
-
-{/* <a href="/contact-us">
-            <button type="submit">
-              <div className="z-index-2">Let's talk &nbsp;</div>
+    <div>
+      <a href="/contact-us" className='Button_a'>
+            <button type="submit" style={{width:width}}>
+              <div className="z-index-2">{text}&nbsp;</div>
               <div className="icon-embed-xxsmall z-index-2 w-embed">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -45,4 +27,9 @@ export default Contact;
               </div>
               </button>
               <div className="button-bg-wrapper"></div>
-            </a> */}
+            </a>
+    </div>
+  )
+}
+
+export default Button
