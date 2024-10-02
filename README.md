@@ -4,8 +4,8 @@
 1) Clone or download zip of the repository in your local machine
 2) Open the  folder (having src,public,index.html files etc) in vs code 
 3) then in CLI Run these 2 commands 
-    --> npm install
-    --> npm run dev
+    <br>--> npm install
+    <br>--> npm run dev
 4) after that, link to the webpage will appear in the CLI.
 5) ( ctrl + click ) on the link to open it.
 
