@@ -1,6 +1,7 @@
 import React from "react";
 import "./stylesheets/footer_style.css";
 import Dynamic_link from "../micro_components/Dynamic_link";
+import Newsletter_form from "../micro_components/Newsletter_form";
 
 function Footer() {
   const f_style = {
@@ -18,27 +19,7 @@ function Footer() {
               Sign up to get the latest news on our products
             </div>
             <div className="f_form">
-              <form
-                id="Newsletter-Form"
-                name="wf-form-Newsletter-Form"
-                className="footer1_form"
-              >
-                <input
-                  className="form_input w-input"
-                  maxLength={256}
-                  name="Your-email"
-                  data-name="Your email"
-                  placeholder="Enter your email"
-                  type="email"
-                  id="Your-email-2"
-                  required
-                />
-                <button
-                  id="w-node-_5be8f1ea-eec6-8528-46e9-517ab0bbbf8a-2f05edac"
-                  type="submit"
-                  className="button is-alternate"
-                >Submit</button>
-              </form>
+              <Newsletter_form/>
             </div>
             <div className="f_social">
               <a href="https://www.facebook.com/PromptAdvisers">
@@ -117,18 +98,22 @@ function Footer() {
           <div className="f_div_1_right">
             <div className="f_div_1_rightL">
                 <h3 className="">Menu</h3>
+                <div className="links">
                 <Dynamic_link name={"Home"} url={"https://www.promptadvisers.com/"}/>
                 <Dynamic_link name={"Services"} url={"https://www.promptadvisers.com/services"}/>
                 <Dynamic_link name={"About Us"} url={"https://www.promptadvisers.com/about-us"}/>
                 <Dynamic_link name={"Inbound Agent"} url={"https://www.promptadvisers.com/inbound-agent"}/>
                 <Dynamic_link name={"Careers"} url={"https://www.promptadvisers.com/careers"}/>
                 <Dynamic_link name={"Media Centres"} url={"https://www.promptadvisers.com/media-centre"}/>
+                </div>
             </div>
             <div className="f_div_1_rightR">
-            <h3 className="">Our Services</h3>
+                <h3 className="">Our Services</h3>
+                <div className="links">
                 <Dynamic_link name={"Consultations"} url={"https://www.promptadvisers.com/services#consultations"}/>
                 <Dynamic_link name={"AI Audits"} url={"https://www.promptadvisers.com/services#ai-audit"}/>
                 <Dynamic_link name={"AI Product Development"} url={"https://www.promptadvisers.com/services#custom-ai-product-development"}/>
+                </div>
             </div>
           </div>
         </div>

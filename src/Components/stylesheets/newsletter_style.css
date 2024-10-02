@@ -1,0 +1,58 @@
+/* .f_div_1_child body{
+    background-color: hsl(0, 0%, 10%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.Newsletter_container{
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+}
+#Newsletter-Form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.f_div_1_child input{
+    background-color: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100rem;
+    padding-inline: 1rem;
+    color: white;
+    height: 50px;
+    min-width: 13rem;
+}
+.f_div_1_child button{
+    height:50px;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 1000px;
+    /* background-color: rgb(44, 44, 44); */
+    background-color: whitesmoke;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &:hover{
+        color: white;
+    }
+}
+.f_div_1_child button::after {
+    content: "";
+    height:108%;
+    width: 105%;
+    position:absolute;
+    background-image: linear-gradient(to bottom right,rgb(3, 124, 211),rgb(223, 19, 53));
+    border-radius: 1000px;
+    z-index:-1;
+}
+.f_div_1_child button:hover{
+    z-index: 0;
+    box-shadow: 6px 3px 20px rgba(223, 19, 53, 0.756),
+     -6px -3px 20px rgb(3, 110, 186);
+}
