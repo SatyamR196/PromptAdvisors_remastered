@@ -55,4 +55,5 @@
     z-index: 0;
     box-shadow: 6px 3px 20px rgba(223, 19, 53, 0.756),
      -6px -3px 20px rgb(3, 110, 186);
+     cursor: pointer;
 }

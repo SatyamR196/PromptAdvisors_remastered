@@ -88,6 +88,12 @@
         display: grid;
     }
 }
+@media screen and (max-width: 412px) {
+    .footer-grid {
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 620px) {
     .f_div_2_child {
         flex-direction: column-reverse;
