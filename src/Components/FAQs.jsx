@@ -25,6 +25,7 @@ function FAQs() {
                       crucial in optimizing Al interactions, ensuring your
                       Al applications communicate effectively and
                       deliver value to your business."
+              status="open"
             />
             <Question text="Can you provide a custom AI solution for a niche industry?"
             answer="Absolutely. Our expertise lies in tailoring AI solutions to fit specific industry needs, no matter how niche. We analyze your unique challenges and design AI tools that are perfectly aligned with your business objectives."
@@ -52,6 +53,7 @@ function FAQs() {
             />
             <Question text="How can I get started with implementing AI in my business?"
             answer="Getting started is easy. Just contact us, and we'll arrange a consultation to discuss your business needs and how AI can be integrated to meet those needs."
+            status="open"
             />
           </div>
         </div>

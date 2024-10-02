@@ -1,10 +1,10 @@
 import React from 'react'
 import "../Components/stylesheets/button_style.css"
-function Button({text="Click Me",width=150}) {
+function Button({text="Click Me",width=150,BG="white",tColor="black"}) {
   return (
     <div>
       <a href="/contact-us" className='Button_a'>
-            <button type="submit" style={{width:width}}>
+            <button type="submit" style={{width:width, backgroundColor:BG,color:tColor,border:`0px solid ${BG}`}}>
               <div className="z-index-2">{text}&nbsp;</div>
               <div className="icon-embed-xxsmall z-index-2 w-embed">
                 <svg

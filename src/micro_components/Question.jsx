@@ -2,13 +2,18 @@ import React from "react";
 import "../Components/stylesheets/pico.conditional.zinc.css";
 import "../Components/stylesheets/Question_style.css";
 
-function Question({ text,answer }) {
+function Question({ text,answer,status="closed" }) {
   return (
     <div className="Q_main pico container">
-      <details >
+      {status=="open"? <details open >
+        <summary style={{color:"white",fontWeight:"bold",lineHeight:"1.8"}}>{text}</summary>
+        <p style={{color:"white",lineHeight:"1.4"}}>{answer}</p>
+      </details> : <details >
         <summary style={{color:"white",fontWeight:"bold",lineHeight:"1.8"}}>{text}</summary>
         <p style={{color:"white",lineHeight:"1.4"}}>{answer}</p>
       </details>
+      }
+      
     </div>
   );
 }
