@@ -22,10 +22,18 @@ function App() {
 
   return (
     <>
-      <Navbar/>
       <Pre_Landing/>
+      <Navbar/>
       <Landing/>
-      <p style={{ backgroundColor : "lawngreen"}}>Hello world</p>
+      <Intro/>
+      <Services/>
+      <Pricing/>
+      <Feedback/>
+      <Newsroom/>
+      <PR/>
+      <FAQs/>
+      <Contact/>
+      <Footer/>
     </>
   )
 }
