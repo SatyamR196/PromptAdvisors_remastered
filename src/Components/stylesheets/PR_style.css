@@ -1,4 +1,23 @@
 .PR_main{
-    padding: 10rem 0 5rem;
-    background-color: aquamarine;
+    padding: 10rem 2rem 5rem;
+    background-color: rgb(230, 245, 253);
+    height: 700px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap:2rem
+}
+.line_div{
+    height: 2px;
+    width: 10rem;
+    background-color: black;
+}
+.banner_wrap{
+    height: 200px;
+    display: flex;
+    gap:2rem;
+}
+.PR_title{
+    font-size: clamp(1.5rem, 3vw + 1rem, 4rem);
+    font-weight: bold;
 }
