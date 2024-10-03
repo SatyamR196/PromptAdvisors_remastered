@@ -1,0 +1,17 @@
+.pf_container{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+}
+.pf_main{
+    color: #3E437D;
+    background-color: hsl(240, 100%, 96%);
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+}
+@media (min-width:991px){
+.grid_layout{
+    order: 0 !important;
+}
+}

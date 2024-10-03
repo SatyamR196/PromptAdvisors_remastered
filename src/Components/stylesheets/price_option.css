@@ -1,0 +1,45 @@
+.option_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:1rem;
+    position: relative;
+}
+.option_container sub{
+    color:#87888A;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.otd1{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+.otd2{
+    font-size: 0.75rem;
+    color: #87888A;
+}   
+.obd1{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.obd2{
+    font-size: 2.5rem;
+    font-weight:900;
+}
+.rec_flag{
+    background-color: #1D2339;
+    color: whitesmoke;
+    border-radius: 100vw;
+    padding: .5rem .75rem .375rem;
+    font-weight: 800;
+    line-height: .9;
+    font-size: smaller;
+    position: absolute;
+    inset: -2rem auto auto 0%;
+}
+@media (min-width:991px){
+    .grid_layout{
+        order: 0 !important;
+    }
+}
