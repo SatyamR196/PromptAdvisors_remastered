@@ -2,6 +2,7 @@ import React from 'react'
 import "../Components/stylesheets/button_style.css"
 import { useState } from 'react';
 function Button({text="Click Me",width=150,BG="white",tColor="black"}) {
+
  let [Color,setColor] = useState(tColor);
   const handlehover = () => {
       if(tColor=="black"){
@@ -18,7 +19,7 @@ function Button({text="Click Me",width=150,BG="white",tColor="black"}) {
 }
   
   return (
-    <div>
+    <div style={{display:"flex",alignItems:"center"}}>
       <a href="/contact-us" className='Button_a'>
             <button type="submit" onMouseOver={handlehover} onMouseOut={handleOut} style={{width:width, backgroundColor:BG,color:Color,border:`0px solid ${BG}`}}>
               <div className="z-index-2">{text}&nbsp;</div>

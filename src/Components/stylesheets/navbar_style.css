@@ -1,0 +1,39 @@
+.navbar_container{
+    padding: 20px 2rem;
+    /* border: 1px solid white; */
+    /* background-color: transparent; */
+    background-color: #101115;
+    /* box-sizing: border-box; */
+}
+.navbar_main{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 4rem;
+}
+.nav_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.nav_link_text{
+    font-weight: bold !important;
+    font-size: 14px;
+}
+.nav_active{
+    text-decoration: 2px solid underline white;
+}
+.nav_logo_img{
+    aspect-ratio: 2/1;
+    height: 85%;
+    transition: ease-in-out 0.2s;
+    &:hover{
+    filter: drop-shadow(0 0 16px rgb(49, 148, 255));
+    cursor: pointer;
+    height: 100%;
+    }
+}
+@media (max-width:940px){
+
+}

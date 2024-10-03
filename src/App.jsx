@@ -22,8 +22,8 @@ function App() {
 
   return (
     <>
-      <Pre_Landing/>
       <Navbar/>
+      {/* <Pre_Landing/> */}
       <Landing/>
       <Intro/>
       <Services/>
