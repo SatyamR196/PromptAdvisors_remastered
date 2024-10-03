@@ -1,5 +1,11 @@
 # Prompt Advisor Remastered (React + Vite)
 
+# List of modifications/improvements in the remastered version :-
+1) Removed logo blur on hover effect added glow + enlargement on hover
+2) Changed the button styles.
+3) Modified scrollbar to match the UI.
+
+
 # Instructions of Running in local machine
 1) Clone or download zip of the repository in your local machine
 2) Open the  folder (having src,public,index.html files etc) in vs code 
