@@ -1,10 +1,26 @@
 import React from 'react'
 import "../Components/stylesheets/button_style.css"
+import { useState } from 'react';
 function Button({text="Click Me",width=150,BG="white",tColor="black"}) {
+ let [Color,setColor] = useState(tColor);
+  const handlehover = () => {
+      if(tColor=="black"){
+         setColor("white");
+      }
+  }
+
+  const handleOut = () => {
+    if(tColor=="black"){
+      if(Color=="white"){
+        setColor("black");
+      }
+  }
+}
+  
   return (
     <div>
       <a href="/contact-us" className='Button_a'>
-            <button type="submit" style={{width:width, backgroundColor:BG,color:tColor,border:`0px solid ${BG}`}}>
+            <button type="submit" onMouseOver={handlehover} onMouseOut={handleOut} style={{width:width, backgroundColor:BG,color:Color,border:`0px solid ${BG}`}}>
               <div className="z-index-2">{text}&nbsp;</div>
               <div className="icon-embed-xxsmall z-index-2 w-embed">
                 <svg

@@ -1,0 +1,25 @@
+.T_card_container{
+    padding: 2rem;
+    max-width: 34rem;
+    border-radius: 1.25rem;
+    border: 1.5px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 0.85rem;
+    margin-inline: 1rem;
+}
+.empty_block{
+    height: 30px;
+    width: 16px;
+}
+.T_card_icons{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.card_name span{
+    color: white;
+    font-weight: bold;
+}
