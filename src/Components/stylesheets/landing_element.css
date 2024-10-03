@@ -1,0 +1,27 @@
+.LE_container{
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(30,57,107,1) 54%, rgba(20,119,139,1) 100%);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(30,57,107,1) 54%, rgb(12, 78, 91) 100%);
+    min-height: 95vh;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 1.5rem;
+    padding-block: 2.5rem;
+}
+.LE_right{
+    background-image: url("https://cdn.prod.website-files.com/65bd194e45fe518c3d83f62d/66d82c5ef6a310f44318273a_home-1-bg-2.avif") ;
+    /* background-size: cover; */
+    background-size: cover;
+    background-position: center;
+}
+.LE_left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 45%;
+    color: white;
+}
+.LE_title{
+    font-weight: bold;
+    font-size: 2rem;
+}

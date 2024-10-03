@@ -21,7 +21,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div style={{display:"flex",flexDirection:"column"}}>
       <Navbar/>
       {/* <Pre_Landing/> */}
       <Landing/>
@@ -34,7 +34,7 @@ function App() {
       <FAQs/>
       <Contact/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
