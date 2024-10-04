@@ -1,5 +1,5 @@
 import React from "react";
-import "../Components/stylesheets/Pricing_feature_style.css";
+import "../Components/stylesheets/pricing_feature_style.css";
 import Button from "./Button";
 
 function Pricin_feature({ f_array ,order}) {
