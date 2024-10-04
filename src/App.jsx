@@ -1,8 +1,9 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
 import Navbar from './Components/Navbar'
+import Navbar_small from './Components/Navbar_small'
 import Landing from './Components/Landing'
 import PR from './Components/PR'
 import Pre_Landing from './Components/Pre_Landing'
@@ -14,15 +15,35 @@ import Pricing from './Components/Pricing'
 import Services from './Components/Services'
 import Newsroom from './Components/Newsroom'
 import Contact from './Components/Contact'
+import React, { useState, useEffect } from 'react';
 
 // import './App.css'
 
-function App() {
-  // const [count, setCount] = useState(0)
+const NAV = () => {
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 991);
 
+  const handleResize = () => {
+    setIsLargeScreen(window.innerWidth > 991);
+  };
+
+  useEffect(() => {
+    // Add event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  return ( isLargeScreen ? <Navbar /> : <Navbar_small/> );
+};
+
+function App() {
+   
   return (
     <div style={{display:"flex",flexDirection:"column"}}>
-      <Navbar/>
+      <NAV/>
       {/* <Pre_Landing/> */}
       <Landing/>
       <Intro/>
@@ -39,26 +60,3 @@ function App() {
 }
 
 export default App
-
-{/* <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> 
-
-*/}

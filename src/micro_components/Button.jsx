@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Components/stylesheets/button_style.css"
 import { useState } from 'react';
-function Button({text="Click Me",width=150,BG="white",tColor="black"}) {
+function Button({text="Click Me",width=150,BG="white",tColor="black",onClick=null}) {
 
  let [Color,setColor] = useState(tColor);
   const handlehover = () => {
@@ -20,7 +20,7 @@ function Button({text="Click Me",width=150,BG="white",tColor="black"}) {
   
   return (
     <div style={{display:"flex",alignItems:"center"}}>
-      <a href="/contact-us" className='Button_a'>
+      <a href="#" className='Button_a' onClick={onClick}>
             <button type="submit" onMouseOver={handlehover} onMouseOut={handleOut} style={{width:width, backgroundColor:BG,color:Color,border:`0px solid ${BG}`}}>
               <div className="z-index-2">{text}&nbsp;</div>
               <div className="icon-embed-xxsmall z-index-2 w-embed">

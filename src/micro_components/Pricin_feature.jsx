@@ -19,7 +19,7 @@ function Pricin_feature({ f_array ,order}) {
                 preserveAspectRatio="xMidYMid meet"
                 ariaHidden="true"
                 role="img"
-                class="cz-color-1380624"
+                className="cz-color-1380624"
               >
                 <path
                   fillRule="evenodd"

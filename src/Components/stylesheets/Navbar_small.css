@@ -1,0 +1,54 @@
+.NS_container{
+    padding: 0.85rem 2rem;
+    background-color: #101115;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* box-sizing: content-box; */
+}
+.NS_logo{
+    height: 100%;
+}
+.side_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+    padding-top: 1.5rem;
+}
+.NS_logo_side{
+    width: 280px;
+}
+.NS_logo_side img{
+    width: 280px;
+}
+.nav_logo_img{
+    aspect-ratio: 2/1;
+    height: 85%;
+    transition: ease-in-out 0.2s;
+    &:hover{
+    filter: drop-shadow(0 0 16px rgb(49, 148, 255));
+    cursor: pointer;
+    height: 90%;
+    }
+}
+#Para{
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+#NS_btn{
+    padding: 2px 10px;
+    font-size: 1.4rem;
+}
+.nav_active{
+    text-decoration: 2px solid underline white;
+}
+.nav_fontsize{
+    font-size: 1.8rem;
+}
