@@ -8,7 +8,7 @@
     color: white;
 }
 .item_top{
-    font-size: 3rem;
+    font-size: clamp(2.5rem,2.5rem + 3vw,2.8rem);
     font-weight: bold;
 }
 .item_bottom{
