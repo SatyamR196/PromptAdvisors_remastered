@@ -1,24 +1,42 @@
-.LT_top{
-    height: 20px;
+.LT_top {
+    min-height: 20px;
     display: flex;
+    /* flex-wrap: wrap; */
     align-items: center;
-    gap:2rem;
+    gap: 2rem;
 }
-.LT_line_light{
+
+.LT_line_light {
     width: 160px;
     height: 2px;
     background-color: rgb(0, 0, 0);
 }
-.LT_line_dark{
+
+.LT_line_dark {
     width: 160px;
     height: 2px;
     background-color: rgb(255, 255, 255);
 }
-.LT_text_dark{
+
+.LT_text_dark {
     font-weight: bold;
     color: white;
+    /* line-height: 100%; */
+    overflow-wrap: normal;
+    overflow-wrap: break-word;
+    /* Allows long words to break and wrap onto the next line */
+    word-wrap: break-word;
+    /* For older browsers */
+    white-space: normal;
 }
-.LT_text_light{
+
+.LT_text_light {
     font-weight: bold;
     color: rgb(0, 0, 0);
+    /* line-height: 100%; */
+    overflow-wrap: break-word;
+    /* Allows long words to break and wrap onto the next line */
+    word-wrap: break-word;
+    /* For older browsers */
+    white-space: normal;
 }

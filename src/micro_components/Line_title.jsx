@@ -3,7 +3,7 @@ import "../Components/stylesheets/Line_title_style.css";
 
 function Line_title({ text, theme }) {
   return (
-    <div className="">
+    <div className="line_container">
       {theme == "dark" ? (
         <div className="LT_top">
           <div className="LT_line_dark"></div>
@@ -18,5 +18,4 @@ function Line_title({ text, theme }) {
     </div>
   );
 }
-import "../Components/stylesheets/Line_title_style.css";
 export default Line_title;

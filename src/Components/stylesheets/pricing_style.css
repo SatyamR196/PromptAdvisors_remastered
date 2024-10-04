@@ -6,6 +6,15 @@
     flex-direction: column;
     gap: 2rem;
 }
+@media (max-width:576px){
+    .pricing_container{
+        padding: 7rem 1.5rem 6rem;
+    }
+    .p_grid{
+        gap:3rem !important;
+        padding: 1.5rem !important;
+    }
+}
 .p_title{
     font-weight: bold;
     font-size: clamp(1rem,1rem + 3vw, 4rem);

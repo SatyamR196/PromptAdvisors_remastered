@@ -5,7 +5,7 @@ import Line_title from '../micro_components/Line_title'
 function Services() {
   return (
     <div className='service_container'>
-      <div style={{width:"750px"}}>
+      <div style={{maxWidth:"750px"}}>
         <Line_title 
         text="Automate tasks, enhance productivity, save time, cut costs.
         Grow your business now." theme="dark"/>
