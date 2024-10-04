@@ -1,5 +1,7 @@
 # Prompt Advisor Remastered (React + Vite)
 
+# Link to site : <a href="https://satyamr196.github.io/PromptAdvisors_remastered/">Click Me</a>
+
 # List of modifications/improvements in the remastered version :-
 1) Removed logo blur on hover effect added glow + enlargement on hover
 2) Changed the button styles.
