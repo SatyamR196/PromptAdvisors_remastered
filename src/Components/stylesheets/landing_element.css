@@ -21,7 +21,25 @@
     width: 45%;
     color: white;
 }
+@media (max-width:576px){
+    .LE_left{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 80%;
+        color: white;
+    }
+}
+@media (max-width:390px){
+    .LE_left{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        color: white;
+    }
+}
 .LE_title{
     font-weight: bold;
-    font-size: 2rem;
+    font-size: clamp(1rem,1rem + 3vw,2rem);
 }
