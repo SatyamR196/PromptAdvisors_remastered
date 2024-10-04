@@ -23,7 +23,7 @@ function App() {
   return (
     <div style={{display:"flex",flexDirection:"column"}}>
       <Navbar/>
-      <Pre_Landing/>
+      {/* <Pre_Landing/> */}
       <Landing/>
       <Intro/>
       <Services/>
