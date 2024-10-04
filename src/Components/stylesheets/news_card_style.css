@@ -13,12 +13,13 @@
     width: 100%;
 }
 .nc_title{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 .nc_btn{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .nc_date{
     color: rgb(216, 216, 216);
