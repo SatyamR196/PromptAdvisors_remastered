@@ -11,6 +11,7 @@ to normal if preseed again.
 5) All the scrolling items will pause on hover, this is helpful especially we
 one wants to read the reviews as scrolling reviews are difficult to read.
 6) Services section has annoying moving pics on hover, removal of those.
+7) Added scroll to top functionality,click it to go to the top of the page.
 
 # Instructions of Running in local machine
 1) Clone or download zip of the repository in your local machine

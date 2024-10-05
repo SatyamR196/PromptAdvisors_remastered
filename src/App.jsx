@@ -16,6 +16,8 @@ import Services from './Components/Services'
 import Newsroom from './Components/Newsroom'
 import Contact from './Components/Contact'
 import React, { useState, useEffect } from 'react';
+import { ScrollTop } from 'primereact/scrolltop';
+        
 
 // import './App.css'
 
@@ -55,6 +57,7 @@ function App() {
       <FAQs/>
       <Contact/>
       <Footer/>
+      <ScrollTop />
     </div>
   )
 }
