@@ -9,6 +9,7 @@
     background-color: hsl(240, 100%, 96%);
     padding: 1.25rem;
     border-radius: 1.25rem;
+    flex-grow: 1;
 }
 @media (min-width:991px){
 .grid_layout{
