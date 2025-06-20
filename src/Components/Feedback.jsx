@@ -5,8 +5,8 @@ import Testimonials from './Feedback_components/Testimonials'
 function Feedback() {
   return (
     <>
-        <Stats/>
-        <Testimonials/>
+      <Stats/>
+      <Testimonials/>
     </>
   )
 }

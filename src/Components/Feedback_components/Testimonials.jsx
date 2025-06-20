@@ -31,7 +31,7 @@ function Testimonials() {
         </div>
         <div className="T_bottom">
             <div className="upper_scroll">
-              <Marquee speed={velocity} pauseOnHover={true} direction="right" gradient={true} gradientColor="rgb(0, 0, 0)" gradientWidth={75}>
+              <Marquee speed={velocity} pauseOnHover={true} direction="right" gradient={true} gradientColor="#13171F" gradientWidth={75}>
                 <T_card
                 text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo eos recusandae id ducimus voluptatum, a dolore neque esse exercitationem rerum libero tempora laborum illum cumque nostrum minima ea molestiae. Saepe adipisci eius quae recusandae facere error illo." 
                 name="paultaylor28"
@@ -47,7 +47,7 @@ function Testimonials() {
               </Marquee>
             </div>
             <div className="lower_scroll">
-            <Marquee speed={velocity} pauseOnHover={true} direction="left" gradient={true} gradientColor="rgb(0, 0, 0)" gradientWidth={75}>
+            <Marquee speed={velocity} pauseOnHover={true} direction="left" gradient={true} gradientColor="#13171F" gradientWidth={75}>
                 <T_card
                 text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo eos recusandae id ducimus voluptatum, a dolore neque esse exercitationem rerum libero tempora laborum illum cumque nostrum minima ea molestiae. Saepe adipisci eius quae recusandae facere error illo." 
                 name="paultaylor28"

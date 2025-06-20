@@ -9,6 +9,8 @@
     gap: 1rem;
     font-size: 0.85rem;
     margin-inline: 1rem;
+    background: #13171F; /* or any contrasting color */
+    color: white;
 }
 .empty_block{
     height: 30px;

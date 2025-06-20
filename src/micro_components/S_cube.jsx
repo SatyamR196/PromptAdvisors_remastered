@@ -7,7 +7,7 @@ function S_cube({num,text,cls}) {
             <div className="cube_top">{num}</div>
             <div className="cube_bottom">{text}</div>
         </div>
-      )
+    )
 }
 
 export default S_cube
